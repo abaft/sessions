@@ -3,8 +3,8 @@ package redis
 import (
 	"errors"
 
-	"github.com/boj/redistore"
-	"github.com/gin-contrib/sessions"
+	"github.com/abaft/redistore"
+	"github.com/abaft/sessions"
 	"github.com/gomodule/redigo/redis"
 	gsessions "github.com/gorilla/sessions"
 )
